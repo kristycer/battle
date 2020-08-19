@@ -23,4 +23,6 @@ class Battle < Sinatra::Base
     @player_2_name = session[:player_2_name]
     erb :play
   end
+
+
 end
